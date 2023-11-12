@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 const AppWrapper = styled.div`
-  height: '100vh';
-  display: 'flex';
-  justify-content: 'center';
-  align-items: 'center';
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
-  color: '#010101';
+  color: #010101;
+  gap: 10px;
 `;
 
 const H1 = styled.h1`

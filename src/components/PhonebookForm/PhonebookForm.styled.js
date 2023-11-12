@@ -7,6 +7,8 @@ const ContactsForm = styled.form`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: center;
+  justify-content: center;
   & > label {
     font-size: 18px;
     width: 150px;

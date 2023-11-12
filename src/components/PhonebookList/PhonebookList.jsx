@@ -1,8 +1,8 @@
-import { Ul } from 'components/Helpers/Components.styled';
+import { ContactsList } from './PhonebookList.styled';
 
 export const PhonebookList = ({ contacts, filter, deleteContact }) => {
   return (
-    <Ul>
+    <ContactsList>
       {contacts
         .filter(el => {
           if (filter) {
@@ -23,6 +23,6 @@ export const PhonebookList = ({ contacts, filter, deleteContact }) => {
             </li>
           );
         })}
-    </Ul>
+    </ContactsList>
   );
 };
