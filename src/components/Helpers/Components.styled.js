@@ -9,6 +9,10 @@ const AppWrapper = styled.div`
   color: '#010101';
 `;
 
+const H1 = styled.h1`
+  font-size: 40px;
+`;
+
 const H2 = styled.h2`
   font-size: 32px;
 `;
@@ -21,4 +25,4 @@ const Ul = styled.ul`
 
 const Input = styled.input``;
 
-export { AppWrapper, Div, Ul, Input, H2 };
+export { AppWrapper, Div, Ul, Input, H1, H2 };
